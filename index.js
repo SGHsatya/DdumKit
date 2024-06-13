@@ -1,0 +1,10 @@
+var number = document.querySelectorAll(".drum").length;
+
+for (var i = 0; i < number; i++ ) {
+
+    document.querySelectorAll(".drum")[i].addEventListener("click" , function(){
+
+    alert("I got clicked!");
+});
+
+}
